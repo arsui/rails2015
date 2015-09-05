@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   mount MailsViewer::Engine  => '/delivered_mails' if defined?(MailsViewer)
   
-  root 'orders#index'
+  root 'home#index'
   resources :operators do
     collection do
       put :me

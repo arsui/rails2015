@@ -67,15 +67,11 @@ gem 'china_city', github: 'borisli/china_city'
 gem 'business_time' # 计算工作日与自然日之间的转换
 
 
-gem 'dgateway', git: 'https://saberma:02426e969691ffec75676284dcf0d05be20adc57@github.com/DJISZ/dgateway.git'    # 支付网关
-gem 'paypal-sdk-merchant' #Store Paypal支付查询
+ 
 
 # 后台任务（发邮件等）
-# gem "delayed_job"
-# gem 'delayed_job_active_record'
-gem 'sidekiq'
-gem 'sinatra' # 用于使用自带的监控页面
-gem "redis"
+gem "delayed_job"
+gem 'delayed_job_active_record'
 gem 'daemons'
 gem "whenever"
 
